@@ -8,5 +8,9 @@
 
 import Foundation
 
-print("Hello, World!")
 
+func getFileInput(path: String) -> String {
+    return try! NSString(contentsOfFile: path, encoding: NSUTF8StringEncoding) as String
+}
+
+DayTwo.main()
