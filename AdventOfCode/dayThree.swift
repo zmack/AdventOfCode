@@ -9,7 +9,6 @@
 import Foundation
 
 class DayThree {
-    static let inputPath = "/Users/zmack/Documents/Apps/AdventOfCode/Inputs/day-3-input.txt"
     
     class Santa {
         var x = 0
@@ -34,7 +33,7 @@ class DayThree {
     }
     
     static func main() {
-        let input = getFileInput(inputPath)
+        let input = getFileInput(3)
 
         
         var houses = Set(["0,0"])

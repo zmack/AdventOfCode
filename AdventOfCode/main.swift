@@ -9,8 +9,17 @@
 import Foundation
 
 
+func inputFilename(day: Int) -> String {
+    return String(format: "/Users/zmack/Documents/Apps/AdventOfCode/Inputs/day-%d-input.txt", arguments: [day])
+}
+
+func getFileInput(fromDay: Int) -> String {
+    let path = inputFilename(fromDay)
+    return getFileInput(path)
+}
+
 func getFileInput(path: String) -> String {
     return try! NSString(contentsOfFile: path, encoding: NSUTF8StringEncoding) as String
 }
 
-DayFour.main()
+DayFive.main()

@@ -9,8 +9,6 @@
 import Foundation
 
 class DayTwo {
-    static let inputPath = "/Users/zmack/Documents/Apps/AdventOfCode/Inputs/day-2-input.txt"
-    
     struct PresentWrapping {
         let length, height, width: Int
         init(length: Int, height: Int, width: Int) {
@@ -48,7 +46,7 @@ class DayTwo {
     }
     
     static func main() {
-        let input = getFileInput(inputPath)
+        let input = getFileInput(2)
         var totalRibbon = 0
         var totalWrapping = 0
 

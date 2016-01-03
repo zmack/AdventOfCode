@@ -9,8 +9,6 @@
 import Foundation
 
 class DayOne {
-    static let inputPath = "/Users/zmack/Documents/Apps/AdventOfCode/Inputs/day-1-input.txt"
-    
     static func getTotalRide(input: String) -> Int {
         return input.characters.reduce(0, combine: { (collector, char) -> Int in
             switch char {
@@ -45,7 +43,7 @@ class DayOne {
     }
     
     static func main() {
-        let input = getFileInput(inputPath)
+        let input = getFileInput(1)
         
         print("Result is ", getTotalRide(input))
         print("First basement ride is ", getFirstBasementRide(input))
