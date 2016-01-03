@@ -11,6 +11,7 @@
 		39E1519A1C386DAC00E716FE /* dayOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E151991C386DAC00E716FE /* dayOne.swift */; };
 		39E1519C1C386E5100E716FE /* dayTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E1519B1C386E5100E716FE /* dayTwo.swift */; };
 		39E1519E1C389B6200E716FE /* dayThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E1519D1C389B6200E716FE /* dayThree.swift */; };
+		39E151A01C38A3ED00E716FE /* dayFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E1519F1C38A3ED00E716FE /* dayFour.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		39E151991C386DAC00E716FE /* dayOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dayOne.swift; sourceTree = "<group>"; };
 		39E1519B1C386E5100E716FE /* dayTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dayTwo.swift; sourceTree = "<group>"; };
 		39E1519D1C389B6200E716FE /* dayThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dayThree.swift; sourceTree = "<group>"; };
+		39E1519F1C38A3ED00E716FE /* dayFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dayFour.swift; sourceTree = "<group>"; };
+		39E151A11C38A46700E716FE /* AdventOfCode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdventOfCode-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +68,10 @@
 			children = (
 				39E151921C3864B100E716FE /* main.swift */,
 				39E1519D1C389B6200E716FE /* dayThree.swift */,
+				39E1519F1C38A3ED00E716FE /* dayFour.swift */,
 				39E1519B1C386E5100E716FE /* dayTwo.swift */,
 				39E151991C386DAC00E716FE /* dayOne.swift */,
+				39E151A11C38A46700E716FE /* AdventOfCode-Bridging-Header.h */,
 			);
 			path = AdventOfCode;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39E151931C3864B100E716FE /* main.swift in Sources */,
+				39E151A01C38A3ED00E716FE /* dayFour.swift in Sources */,
 				39E1519A1C386DAC00E716FE /* dayOne.swift in Sources */,
 				39E1519C1C386E5100E716FE /* dayTwo.swift in Sources */,
 				39E1519E1C389B6200E716FE /* dayThree.swift in Sources */,
@@ -221,14 +227,21 @@
 		39E151971C3864B100E716FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AdventOfCode/AdventOfCode-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		39E151981C3864B100E716FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AdventOfCode/AdventOfCode-Bridging-Header.h";
 			};
 			name = Release;
 		};
