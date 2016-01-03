@@ -22,4 +22,8 @@ func getFileInput(path: String) -> String {
     return try! NSString(contentsOfFile: path, encoding: NSUTF8StringEncoding) as String
 }
 
-DayFive.main()
+let timeStarted = NSDate()
+
+DaySix.main()
+
+print("Execution took", NSDate().timeIntervalSinceDate(timeStarted), "seconds")

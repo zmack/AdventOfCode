@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		390229101C39BE99005DBF73 /* dayFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3902290F1C39BE99005DBF73 /* dayFive.swift */; };
+		390229121C39E0D1005DBF73 /* daySix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390229111C39E0D1005DBF73 /* daySix.swift */; };
 		39E151931C3864B100E716FE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E151921C3864B100E716FE /* main.swift */; };
 		39E1519A1C386DAC00E716FE /* dayOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E151991C386DAC00E716FE /* dayOne.swift */; };
 		39E1519C1C386E5100E716FE /* dayTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E1519B1C386E5100E716FE /* dayTwo.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		3902290F1C39BE99005DBF73 /* dayFive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dayFive.swift; sourceTree = "<group>"; };
+		390229111C39E0D1005DBF73 /* daySix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = daySix.swift; sourceTree = "<group>"; };
 		39E1518F1C3864B100E716FE /* AdventOfCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E151921C3864B100E716FE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		39E151991C386DAC00E716FE /* dayOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dayOne.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				39E1519D1C389B6200E716FE /* dayThree.swift */,
 				39E1519F1C38A3ED00E716FE /* dayFour.swift */,
 				3902290F1C39BE99005DBF73 /* dayFive.swift */,
+				390229111C39E0D1005DBF73 /* daySix.swift */,
 				39E1519B1C386E5100E716FE /* dayTwo.swift */,
 				39E151991C386DAC00E716FE /* dayOne.swift */,
 				39E151A11C38A46700E716FE /* AdventOfCode-Bridging-Header.h */,
@@ -138,6 +141,7 @@
 			files = (
 				39E151931C3864B100E716FE /* main.swift in Sources */,
 				39E151A01C38A3ED00E716FE /* dayFour.swift in Sources */,
+				390229121C39E0D1005DBF73 /* daySix.swift in Sources */,
 				390229101C39BE99005DBF73 /* dayFive.swift in Sources */,
 				39E1519A1C386DAC00E716FE /* dayOne.swift in Sources */,
 				39E1519C1C386E5100E716FE /* dayTwo.swift in Sources */,
